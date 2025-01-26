@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", "sans-serif";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/* navigation */
+.nav {
+  height: 70px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+.option {
+  display: flex;
+  gap: 50px;
+}
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+.nav h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+.light-mode .nav h3 a {
+  background-color: #fff;
+  color: #000;
+}
+/* Home */
+.Home {
+  height: 420px;
+  width: 100%;
+}
+/* my-image */
+.image {
+  display: flex;
+  justify-content: center;
+}
+.my-image {
+  height: 130px;
+  width: 110px;
+  border-radius: 70%;
+}
+.home-line {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+/* home-line-small */
+#hi {
+  font-size: 30px;
+}
+/* button */
+.hire-btn {
+  text-align: center;
+  padding-top: 20px;
+}
+.btn {
+  height: 40px;
+  width: 150px;
+  font-size: 25px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  border: none;
+}
+.btn:hover {
+  background-color: antiquewhite;
+}
+.light-mode .hire-btn .btn {
+  background-color: #000;
+  color: #fff;
+}
+.light-mode .btn:hover {
+  background-color: rgba(0, 0, 0, 0.606);
+}
+
+/* project */
+.Project {
+  text-align: center;
+  margin-top: 50px;
+  height: 480px;
+  width: 100%;
+}
+#p-title {
+  font-size: 40px;
+}
+.boxes {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.p-box {
+  height: 450px;
+  width: 350px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+.p-box #ff {
+  height: 330px;
+  width: 345px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.ff-line {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.ff-view {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  height: 40px;
+  width: 30%;
+  margin: auto;
+  border: 2px solid #fff;
+  background-color: antiquewhite;
+  color: #000;
+  border-radius: 20px;
+}
+.light-mode .ff-view {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  height: 40px;
+  width: 30%;
+  margin: auto;
+  border: 2px solid #fff;
+  background-color: #000000c2;
+  color: #fff;
+  border-radius: 20px;
+}
+/* .view-it-ff{
+  height:30px;
+  width: 80px;
+  background-color: blue;
+  border-radius: 20px;
+  
+} */
+
+/* about me */
+.Aboutme {
+  margin-top: 60px;
+  height: 390px;
+  width: 100%;
+
+  display: list-item;
+  text-align: center;
+}
+
+.Aboutme h2 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-lines {
+  margin: auto;
+  padding: 5px;
+  font-size: 18px;
+  height: 300px;
+  width: 90%;
+  border: 2px solid #fff;
+}
+.about-lines h3 {
+  padding-top: 5px;
+  color: bisque;
+}
+.light-mode .about-lines h3 {
+  color: #000;
+}
+.light-mode .Aboutme h2 {
+  color: #000;
+}
+/* Contact */
+.Contact {
+  margin-top: 80px;
+  padding-left: 10%;
+}
+.Contact h2 {
+  font-size: 40px;
+}
+/* Form-backend */
+.from-b {
+  display: inline;
+  justify-content: space-around;
+}
+.from-b input {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: #000;
+  background-color: #fff;
+  margin-left: 40%;
+  border-radius: 20px;
+}
+#ssub {
+  background-color: blanchedalmond;
+  width: 10%;
+}
+/* Ending part */
+.end {
+  margin-top: 40px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  height: 200px;
+  width: 100%;
+}
+.endline {
+  padding-top: 20px;
+  font-size: 15px;
+}
+.end-icon {
+  margin-top: 10px;
+  height: 10%;
+  width: 10%;
+  padding-left: 46%;
+}
+.i-box {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+#ii {
+  font-size: 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #000;
+}
