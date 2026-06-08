@@ -16,7 +16,7 @@
     $number='Number';
     $address="Address";
     
-    $connection= new mysqli('localhost','root','','portfolio_s');
+    $connection= new mysqli('sql104', 'if0_38187967', 'Kwf9yfayyM6', 'if0_38187967_portfolio_s');
     if($connection->connect_error){
         die('connection failed' .mysqli_connect_error());
     }

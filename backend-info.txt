@@ -1,0 +1,4 @@
+      $host   = 'sql312.infinityfree.com';       // change to 'sql204' on live server
+      $user   = 'if0_42120550';            // change to 'if0_39606568' on live server
+      $pass   = 'PbUuzIa3S1';                // change to 'lOMmyvfzCCqF' on live server
+      $dbname = 'if0_42120550_portfolio';
